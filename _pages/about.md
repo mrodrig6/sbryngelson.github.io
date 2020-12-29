@@ -69,11 +69,9 @@ permalink: /about/
 
 ## Sketch
 
-Dr. Spencer Bryngelson develops computational tools to improve human health outcomes. 
-He is currently a Senior Postdoctoral Scholar at the California Institute of Technology, working with Professor Tim Colonius. 
-He also works with Professor Themis Sapsis at the Massachusetts Institute of Technology. 
-Previously, he was a Postdoctoral Research Associate at the Center for Exascale Simulation of Plasma-Coupled Combustion. 
-He holds a Ph.D. in Theoretical and Applied Mechanics from the University of Illinois at Urbana–Champaign, where he worked with Professor Jonathan Freund.
+Mauro Rodriguez Jr. research aims to understand, model and manipulate flows via numerical simulation of multi-component flows with non-linear deformations. 
+He is currently a Postdoctoral Scholar Research Associate at the California Institute of Technology, mentored by Professor Tim Colonius. 
+He holds a Ph.D. in Mechanical Engineering from the University of Michigan, supervised by Professor Eric Johnsen.
 
 {% if site.data.awards %}
 ## Awards
@@ -95,16 +93,13 @@ He holds a Ph.D. in Theoretical and Applied Mechanics from the University of Ill
 
 ## Collaborators
 
-* <a href="http://acoustics.ae.illinois.edu/" target="_blank">Professor Daniel Bodony (Aerospace, University of Illinois)</a>
 * <a href="http://colonius.caltech.edu/" target="_blank">Professor Tim Colonius (Computational Flow Physics, Caltech)</a>
-* <a href="http://ewoldt.mechanical.illinois.edu/" target="_blank">Professor Randy Ewoldt (MechSE, University of Illinois)</a>
-* <a href="https://www.cbe.iastate.edu/the-department/facultystaff/profile/rofox/" target="_blank">Professor Rodney Fox (Iowa State University)</a>
-* <a href="http://jbfreund.mechse.illinois.edu/" target="_blank">Professor Jonathan Freund (MechSE + Aero, UIUC)</a>
-* <a href="http://www.gueniat.fr/" target="_blank">Dr. Florimond Guéniat (Birmingham City University, UK)</a>
-* <a href="https://sites.google.com/view/kazukimaeda/home" target="_blank">Dr. Kazuki Maeda (Center for Turbulence Research, Stanford)</a>
-* <a href="http://lukeo.cs.illinois.edu/" target="_blank">Professor Luke Olson (Computer Science and CSE, University of Illinois)</a>
-* <a href="https://viterbi.usc.edu/directory/faculty/Pantano-Rubino/Carlos" target="_blank">Professor Carlos Pantano (University of Southern California)</a>
-* <a href="http://www.its.caltech.edu/~mrdz/index.html" target="_blank">Dr. Mauro Rodriguez (MechE, Caltech)</a>
-* <a href="http://sandlab.mit.edu/" target="_blank">Professor Themis Sapsis (Sand Lab, MIT)</a>
+* <a href="http://www-personal.umich.edu/~ejohnsen/" target="_blank">Professor Eric Johnsen (Mechanical Engineering, University of Michigan)</a>
+* <a href="https://histotripsy.umich.edu/" target="_blank">Professor Zhen Xu (Xu Lab, University of Michigan)</a>
+* <a href="https://www.franck.engr.wisc.edu/" target="_blank">Professor Christian Franck (Franck Lab, University of Wisconsin)</a>
+* <a href="https://aero.engin.umich.edu/people/kenneth-powell/" target="_blank">Professor Ken Powell (University of Michigan)</a>
+* <a href="https://bryngelson-research.com/" target="_blank">Dr. Spencer Bryngelson (Computational Flow Physics, Caltech)</a>
 * <a href="https://kevinschmidmayer.github.io/overview/" target="_blank">Dr. Kevin Schmidmayer (Sopra Steria, France)</a>
+* <a href="https://marchdf.github.io/" target="_blank">Dr. Marc Henry de Frahan (National Renewable Energy Lab)</a>
+
 
