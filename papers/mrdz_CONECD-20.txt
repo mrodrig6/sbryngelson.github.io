@@ -1,0 +1,8 @@
+@inproceedings{Plata2021,
+author = {Plata, S. L. and Hasbun, I. and Rodriguez, M. and Renaud, D.},
+booktitle = {ASEE CoNECD},
+pages = {1--21},
+publisher = {American Society of Engineering Education},
+title = {{Social-cognitive leadership theory of SHPE's premier leadership conference for undergraduates and professionals in the STEM workforce}},
+year = {2021}
+}

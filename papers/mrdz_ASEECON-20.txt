@@ -1,0 +1,11 @@
+@INPROCEEDINGS{asee_peer_33997
+author = "Mauro Rodriguez Jr, Karen Mariela Siles, and Dora Louise Renaud"
+title = "A Decade-long Programmatic Study of SHPE’s Chapter Reporting Program: Best Practices, Lessons Learned, and Outcomes for National Engineering Diversity Chapter-based Organizations (Experience)"
+booktitle = "2020 ASEE Virtual Annual Conference Content Access"
+year = "2020"
+month = "June"
+address = "Virtual On line "
+publisher = "ASEE Conferences"
+note = {https://cms.jee.org/33997}
+number = {10.18260/1-2--33997}
+}
