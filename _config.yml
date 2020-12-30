@@ -1,7 +1,7 @@
 # Site settings
-title: Mauro Rodriguez, Jr. PhD
+title: Mauro Rodriguez Jr., PhD
 email: mrdz@caltech.edu
-description: Academic webpage of Mauro Rodriguez, Jr. PhD
+description: Academic webpage of Mauro Rodriguez Jr., PhD
 baseurl: ""
 url: ""
 affiliation: >
@@ -27,9 +27,9 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
+  - name: research
   - name: publications
   - name: talks
-  - name: research
 #  - name: software
 # - name: team
 # - name: teaching
