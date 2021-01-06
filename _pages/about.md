@@ -99,6 +99,7 @@ He holds a Ph.D. in Mechanical Engineering from the University of Michigan, supe
 * <a href="https://www.franck.engr.wisc.edu/" target="_blank">Professor Christian Franck (Franck Lab, University of Wisconsin)</a>
 * <a href="https://aero.engin.umich.edu/people/kenneth-powell/" target="_blank">Professor Ken Powell (University of Michigan)</a>
 * <a href="https://bryngelson-research.com/" target="_blank">Dr. Spencer Bryngelson (Computational Flow Physics, Caltech)</a>
+* <a> Dr. Lauren Mancia (Mechanical Engineering, University of Michigan)</a>
 * <a href="https://kevinschmidmayer.github.io/overview/" target="_blank">Dr. Kevin Schmidmayer (Sopra Steria, France)</a>
 * <a href="https://marchdf.github.io/" target="_blank">Dr. Marc Henry de Frahan (National Renewable Energy Lab)</a>
 

@@ -39,8 +39,8 @@ flow control.
 #### `about me`
 
 I am a Postdoctoral Scholar Research Associate at the <a href="https://www.caltech.edu/" target="_blank">California Institute of Technology</a>, working with <a href="https://www.colonius.caltech.edu/" target="_blank">Professor Tim Colonius</a>.
-I have a Ph.D. and M.S. in <a href="https://mechanical.illinois.edu/graduate/graduate-degree-programs/phd-programs/phd-theoretical-and-applied-mechanics" target="_blank">Theoretical and Applied Mechanics</a> from the University of Illinois at Urbana–Champaign (2017 and 2015), where I worked with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Professor Jonathan Freund</a>.
-I hold a Bachelors in Mechanical Science and Engineering from the University of Illinois at Urbana-Champaign (2010).
+I have a Ph.D. in <a href="https://me.engin.umich.edu/" target="_blank">Mechanical Engineering</a> from the University of Michigan, Ann Arbor (2018), supervised by <a href="https://me.engin.umich.edu/people/faculty/eric-johnsen" target="_blank">Professor Eric Johnsen</a>.
+I earned a Masters in Mechanical Engineering from Stanford University (2012) a Bachelors in Mechanical Science and Engineering from the University of Illinois at Urbana-Champaign (2010).
 
 <br/>
 <div class="well-md">
