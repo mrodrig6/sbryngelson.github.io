@@ -10,8 +10,8 @@ url: ""
 
 # Footer info
 affiliation: >
-    Dr. Spencer Bryngelson<br/>
-    Senior Postdoctoral Scholar<br/>
+    Mauro Rodriguez Jr., PhD<br/>
+    Postdoctoral Scholar Research Associate<br/>
     <a href="http://www.eas.caltech.edu/" target="_blank">Engineering and Applied Science</a><br/>
     California Institute of Technology
 
@@ -23,8 +23,7 @@ location: >
 
 contact: >
     <a href="mailto:mrdz@caltech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Mauro via email</a> <br/>
-
-#####<a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+    <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
 
 # Pages shown in navbar
 nav_pages:
