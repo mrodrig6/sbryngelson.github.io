@@ -43,25 +43,6 @@ permalink: /publications/
 {% endfor %}
 {% endif %}
 
-<<<<<<< HEAD
-<div class="well-sm">
-<ul class="flex-container">
-<li class="flex-item1">
-  {% if publi.image %}
-   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="90%" style="float: left" />
-  {% endif %}
-</li>
-<li class="flex-item2">
-  <strong> {{ publi.title }}</strong><br/>
-  <i>{{ publi.authors }} </i><br/>
-  {{ publi.display }}<br/>
-  <!--{% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}-->
-  {% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"></a>{% endif %}
-  {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
-  {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
-  {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a> {% endif %}
-=======
 <div class="jumbotron">
 <div class="row">
 <div class="d-none d-md-block col-sm-2">
@@ -77,7 +58,6 @@ permalink: /publications/
  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn btn-sm btn-primary">ARXIV</button></a> {% endif %}
  {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2" class="btn btn-sm btn-warning" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
  {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}" class="btn btn-sm btn-danger" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a>{% endif %}
->>>>>>> 8cc536307e853f6a4892db72a58e5cf1477a6068
 
 {% if publi.abstract %}
 <div class="collapse" id="{{publi.url}}"><div class="well-collapse">
@@ -138,14 +118,9 @@ permalink: /publications/
 </div>
 <div class="col-md-10 col-sm-12 col-xs-12">
   <b>{{ publi.title }}</b><br/>
-  <i>{{ publi.authors }} </i><br/>
-  {{ publi.display }} {% if publi.year %}({{publi.year}}){% endif %}<br/>
-  <!--{% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}-->
-  {% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"></a>{% endif %}
-  {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
-  {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
-  {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}" class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a>{% endif %}
+  {{ publi.authors | replace_first: 'S. H. Bryngelson', '<b>S. H. Bryngelson</b>'}}<br/>
+  <i>{{ publi.journal }}</i> {% if publi.info %}{{publi.info}}{% endif %} {% if publi.year %}({{publi.year}}){% endif %}<br/>
+  {% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"><button type="button" class="btn btn-sm btn-success">PDF</button></a>{% endif %} {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button type="button" class="btn btn-sm btn-primary">DOI</button></a> {% endif %}{% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2" class="btn btn-sm btn-warning" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}{% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}" class="btn btn-sm btn-danger" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a>{% endif %}
 
 {% if publi.abstract %}
 <div class="collapse" id="{{publi.url}}"><div class="well-collapse">

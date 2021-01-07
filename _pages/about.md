@@ -62,11 +62,6 @@ permalink: /about/
 </div>
 {% endfor %}
 
-## Sketch
-
-Mauro Rodriguez Jr. research aims to understand, model and manipulate flows via numerical simulation of multi-component flows with non-linear deformations. 
-He is currently a Postdoctoral Scholar Research Associate at the California Institute of Technology, mentored by Professor Tim Colonius. 
-He holds a Ph.D. in Mechanical Engineering from the University of Michigan, supervised by Professor Eric Johnsen.
 {% if site.data.grants %}
 <div class="jumbotron">
 ### Grants

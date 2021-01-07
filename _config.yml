@@ -5,8 +5,9 @@ description: Academic webpage of Mauro Rodriguez Jr., PhD
 baseurl: ""
 url: ""
 
-# Google analytics ID
-#google_analytics: UA-167467135-1
+
+# Google analytics ID: Remove or use your own!
+google_analytics: UA-167467135-1
 
 # Footer info
 affiliation: >
