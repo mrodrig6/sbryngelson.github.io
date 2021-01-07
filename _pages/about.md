@@ -101,21 +101,6 @@ He holds a Ph.D. in Mechanical Engineering from the University of Michigan, supe
 </div>
 {% endif %}
 
-<<<<<<< HEAD
-## Collaborators
-
-* <a href="http://colonius.caltech.edu/" target="_blank">Professor Tim Colonius (Computational Flow Physics, Caltech)</a>
-* <a href="http://www-personal.umich.edu/~ejohnsen/" target="_blank">Professor Eric Johnsen (Mechanical Engineering, University of Michigan)</a>
-* <a href="https://histotripsy.umich.edu/" target="_blank">Professor Zhen Xu (Xu Lab, University of Michigan)</a>
-* <a href="https://www.franck.engr.wisc.edu/" target="_blank">Professor Christian Franck (Franck Lab, University of Wisconsin)</a>
-* <a href="https://aero.engin.umich.edu/people/kenneth-powell/" target="_blank">Professor Ken Powell (University of Michigan)</a>
-* <a href="https://bryngelson-research.com/" target="_blank">Dr. Spencer Bryngelson (Computational Flow Physics, Caltech)</a>
-* <a> Dr. Lauren Mancia (Mechanical Engineering, University of Michigan)</a>
-* <a href="https://kevinschmidmayer.github.io/overview/" target="_blank">Dr. Kevin Schmidmayer (Sopra Steria, France)</a>
-* <a href="https://marchdf.github.io/" target="_blank">Dr. Marc Henry de Frahan (National Renewable Energy Lab)</a>
-
-=======
->>>>>>> 8cc536307e853f6a4892db72a58e5cf1477a6068
 
 {% if site.data.collaborators %}
 <div class="jumbotron">
