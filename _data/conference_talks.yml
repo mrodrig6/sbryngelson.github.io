@@ -1,104 +1,69 @@
-- authors: S. H. Bryngelson and T. Colonius
-  title: A fast-integration-based model for polydisperse bubble cloud dynamics and their two-way-flow coupling
-  conf: Journal of the Acoustical Society of America
-  year: 2021
+- authors: M. Rodriguez and E. Johnsen
+  title: Simulations of Shock Propagation in Viscoelastic Media
+  conf: American Physical Society (APS) 66th Annual Meeting Division of Fluid Dynamics, Pittsburgh, Pennsylvania
+  year: 2013
 
-- authors: S. H. Bryngelson, R. Fox, T. Colonius
-  title: Conditional moment method for fully-coupled phase-averaged cavitation models
-  conf: 11th International Symposium on Cavitation (Daejeon, Korea)
-  year: 2021
+- authors: M. Rodriguez and E. Johnsen
+  title: Shock Waves in Viscoelastic Media
+  conf: 17th U.S. National Congress on Theoretical and Applied Mechanics, Michigan State University, Lansing, Michigan
+  year: 2014
 
-- authors: M. Rodriguez, S. H. Bryngelson, S. Cao, T. Colonius
-  title: Acoustically-induced bubble growth and phase change dynamics near compliant surfaces
-  conf: 11th International Symposium on Cavitation (Daejeon, Korea)
-  year: 2021
+- authors: M. Rodriguez and E. Johnsen
+  title: Simulations of Bubble Collapse in Viscous and Viscoelastic Media near a Second Viscoelastic Medium
+  conf: APS 67th Annual Meeting Division of Fluid Dynamics, San Francisco, California
+  year: 2014
 
-- authors: J.-S. Spratt, M. Rodriguez, S. H. Bryngelson, S. Cao, T. Colonius
-  title: Eulerian framework for bubble-cloud-kidney stone interaction
-  conf: 11th International Symposium on Cavitation (Daejeon, Korea)
-  year: 2021
+- authors: M. Rodriguez and E. Johnsen
+  title: Simulations of Bubble Collapse in Nonlinear Viscoelastic Medium
+  conf: Coupled Problems 2015, VI International Conference on Coupled Problems in Science and Engineering, San Servolo, Venice, Italy
+  year: 2015
 
-- authors: S. H. Bryngelson, A. Charalampopoulos, T. Sapsis, T. Colonius
-  title: Averaging methods for cavitating bubbly flows 
-  conf: 33rd Symposium on Naval Hydrodynamics (Osaka, Japan)
-  year: 2020
+- authors: M. Rodriguez and E. Johnsen
+  title: Simulations of Non-spherical Bubble Collapse Dynamics in Viscous and Viscoelastic Media Near a Compliant Object
+  conf: APS 68th Annual Meeting Division of Fluid Dynamics, Boston, Massachusetts
+  year: 2015
 
-- authors: S. H. Bryngelson, R. Fox, T. Colonius
-  title: Conditioned quadrature moment methods for cavitating bubble dispersions
-  conf: American Physical Society
-  year: 2020
+- authors: M. Rodriguez and E. Johnsen
+  title: Non-spherical Bubble Collapse Dynamics in Viscoelastic Media
+  conf: XXIV International Congress of Theoretical and Applied Mechanics, Montreal, Canada
+  year: 2016
 
-- authors: J.-S. Spratt, M. Rodriguez, S. H. Bryngelson, T. Colonius
-  title: A fully Eulerian simulation framework for cavitating bubble-clouds near viscoelastic materials
-  conf: American Physical Society
-  year: 2020
+- authors: M. Rodriguez and E. Johnsen
+  title: Simulations of Shock-induced Bubble Collapse near Hard and Soft Objects
+  conf: APS 69th Annual Meeting Division of Fluid Dynamics, Portland, Oregon
+  year: 2016
 
-- authors: M. Rodriguez, S. H. Bryngelson, T. Colonius
-  title: Cavitation bubble growth with phase transition near a rigid wall
-  conf: American Physical Society
-  year: 2020
+- authors: M. Rodriguez, S. A. Beig, E. Johnsen, and C. Barbier
+  title: The Role of Confinement in Bubble Collapse in a Channel
+  conf: APS 70th Annual Meeting Division of Fluid Dynamics, Denver, Colorado
+  year: 2017
 
-- authors: S. H. Bryngelson and T. Colonius
-  title: "Annular and spiral bubble nets: A simulation-focused analysis of humpback whale feeding strategies"
-  conf: Journal of the Acoustical Society of America, 146(4) 2771
-  year: 2019
-
-- title: "A comparison of ensemble- and volume-averaged bubbly flow models"
-  authors: S. H. Bryngelson and T. Colonius
-  conf: 10th International Conference on Multiphase Flow (Rio de Janeiro, Brazil)
-  year: 2019
-
-- authors: S. H. Bryngelson, A. Charalampopoulos, T. P. Sapsis, T. Colonius
-  title: Neural-network-augmented Gaussian moment method for the statistics of cavitating bubble populations
-  conf: American Physical Society
-  year: 2019
-
-- authors: T. Trummler, K. Schmidmayer, S. H. Bryngelson, T. Colonius
-  title: Simulations of a collapsing gas bubble above a crevice
-  conf: SoCal Fluids XIII
-  year: 2019
-
-- authors: S. H. Bryngelson and T. Colonius
-  title: Simulations and acoustics of humpback whale bubble-net feeding
-  conf: SoCal Fluids XIII
-  year: 2019
-
-- authors: S. H. Bryngelson and T. Colonius
-  title: Modeling approaches for bubbly, cavitating flows
-  conf: American Physical Society
+- authors: M. Rodriguez and E. Johnsen
+  title: Simulations of Rayleigh Bubble Collapse Near a Soft Object
+  conf: 13th World Congress of Computational Mechanics (WCCM), New York City, New York
   year: 2018
 
-- authors: S. H. Bryngelson and J. B. Freund
-  title: Floquet stability of tank-treading and tumbling capsules in viscous shear flow
-  conf: American Physical Society
-  year: 2017
+- authors: M. Rodriguez, S. A. Beig, E. Johnsen, and C. Barbier
+  title: Rayleigh Collapse of a Bubble in a Channel
+  conf: APS 71st Annual Meeting Division of Fluid Dynamics, Atlanta, Georgia 
+  year: 2018
 
-- authors: S. H. Bryngelson and J. B. Freund
-  title:  Stability of flowing red blood cell trains
-  conf: Blood Flow (Paris, France)
-  year: 2017
+- authors: M. Rodriguez and E. Johnsen
+  title: Collapse of a Bubble Near a Viscoelastic Object
+  conf: 16th Pan-American Congress of Applied Mechanics, Ann Arbor, Michigan
+  year: 2019
 
-- authors: S. H. Bryngelson and J. B. Freund
-  title: Global stability of fully coupled capsule flow systems
-  conf: SIAM Computational Science and Engineering
-  year: 2017
+- authors: M. Rodriguez, S. A. Beig, E. Johnsen, and Z. Xu
+  title: High-fidelity Numerical Simulations of Collapsing Cavitation Bubbles Near Solid and Elastically Deformable Objects
+  conf: BlueWaters Symposium, Sunriver, Oregon
+  year: 2019
 
-- title: The stability of flowing trains of confined red blood cells
-  authors: J. B. Freund and S. H. Bryngelson
-  conf: XXIV International Congress of Theoretical and Applied Mechanics (Montreal, Canada)
-  year: 2016
+- authors: M. Rodriguez and T. Colonius
+  title: Numerical simulations of a cavitating bubble with phase transition near an object
+  conf: APS 72nd Annual Meeting Division of Fluid Dynamics, Seattle, Washington
+  year: 2019
 
-- title: Buckling and the rheology of an elastic capsule suspension
-  authors: S. H. Bryngelson and J. B. Freund
-  conf: XXIV International Congress of Theoretical and Applied Mechanics (Montreal, Canada)
-  year: 2016
-
-- authors: S. H. Bryngelson and J. B. Freund
-  title: Stability and transition to chaos of regular capsule trains
-  conf: American Physical Society
-  year: 2016
-
-- authors: S. H. Bryngelson and J. B. Freund
-  title: Buckling and its effect on the confined flow of a capsule suspension
-  conf: American Physical Society
-  year: 2015
+- authors: M. Rodriguez and T. Colonius 
+  title: Acoustically growing cavitating bubble with phase transition near a rigid wall
+  conf: APS 73rd Annual Meeting Division of Fluid Dynamics Virtual conference
+  year: 2020
