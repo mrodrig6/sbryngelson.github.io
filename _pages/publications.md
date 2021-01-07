@@ -5,7 +5,19 @@ sitemap: false
 permalink: /publications/
 ---
 
-# Publications
+<style>
+.btn{
+    margin-bottom:0;
+}
+.jumbotron{
+    padding-bottom:0px;
+    padding-top:5px;
+    margin-top:10px;
+    margin-bottom:10px
+}
+</style>
+
+## Publications
 
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
@@ -15,7 +27,7 @@ permalink: /publications/
 {% endfor %}
 
 {% if yeartest == false %}
-## Coming Soon
+### Under Review
 {% endif %}
 
 {% for publi in site.data.publist %}
@@ -31,6 +43,7 @@ permalink: /publications/
 {% endfor %}
 {% endif %}
 
+<<<<<<< HEAD
 <div class="well-sm">
 <ul class="flex-container">
 <li class="flex-item1">
@@ -48,27 +61,43 @@ permalink: /publications/
   {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a> {% endif %}
+=======
+<div class="jumbotron">
+<div class="row">
+<div class="d-none d-md-block col-sm-2">
+{% if publi.image %}
+ <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="100%" style="margin-top:5px"/>
+{% endif %}
+</div>
+<div class="col-md-10 col-sm-12 col-xs-12">
+ <strong> {{ publi.title }}</strong><br/>
+ {{ publi.authors | replace_first: 'S. H. Bryngelson', '<b>S. H. Bryngelson</b>'}}<br/>
+ {% if publi.journal %}Under review at <i>{{ publi.journal }}</i>,{% endif %} {% if publi.arxiv %} arXiv {{ publi.arxiv }}{% endif %}<br/>
+ {% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"><button type="button" class="btn btn-success btn-sm">PDF</button></a>{% endif %}
+ {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn btn-sm btn-primary">ARXIV</button></a> {% endif %}
+ {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2" class="btn btn-sm btn-warning" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
+ {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}" class="btn btn-sm btn-danger" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a>{% endif %}
+>>>>>>> 8cc536307e853f6a4892db72a58e5cf1477a6068
 
 {% if publi.abstract %}
-<div class="collapse" id="{{publi.url}}"><div class="well-abstract">
+<div class="collapse" id="{{publi.url}}"><div class="well-collapse">
  {{publi.abstract}}
 </div></div>
 {% endif %}
 
 {% if bibtest == true %}
-<div class="collapse" id="{{publi.url}}2"><div class="well-bib">
+<div class="collapse" id="{{publi.url}}2"><div class="well-collapse">
  <iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
 </div></div>
 {% endif %}
-
-</li>
-</ul>
+</div>
+</div>
 </div>
 {% endif %}
 {% endfor %}
 
 {% if site.group_pub_by_year == true %}{% else %}
-## Journal Papers and Proceedings 
+### Journal Papers and Proceedings 
 {% endif %}
 
 {% for myyear in site.data.years %}
@@ -82,7 +111,7 @@ permalink: /publications/
 
 {% if site.group_pub_by_year == true %}
 {% if yeartest == true %}
-## {{ myyear.year }}
+### {{ myyear.year }}
 {% endif %}
 {% endif %}
 
@@ -100,14 +129,14 @@ permalink: /publications/
 {% endfor %}
 {% endif %}
 
-<div class="well-sm">
-<ul class="flex-container">
-<li class="flex-item1">
+<div class="jumbotron">
+<div class="row">
+<div class="d-none d-md-block col-sm-2">
   {% if publi.image %}
-   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="90%" style="float: left" />
+   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="100%" style="margin-top:5px"/>
   {% endif %}
-</li>
-<li class="flex-item2">
+</div>
+<div class="col-md-10 col-sm-12 col-xs-12">
   <b>{{ publi.title }}</b><br/>
   <i>{{ publi.authors }} </i><br/>
   {{ publi.display }} {% if publi.year %}({{publi.year}}){% endif %}<br/>
@@ -119,22 +148,20 @@ permalink: /publications/
   {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}" class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a>{% endif %}
 
 {% if publi.abstract %}
-<br/>
-<div class="collapse" id="{{publi.url}}"><div class="well-abstract">
+<div class="collapse" id="{{publi.url}}"><div class="well-collapse">
  {{publi.abstract}}
 </div></div>
 {% endif %}
 
 {% if bibtest == true %}
-<div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<div class="collapse" id="{{publi.url}}2"><div class="well-collapse">
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210px" frameborder='0'></iframe>
 </div></div>
 {% endif %}
-
-</li>
-</ul>
-
 </div>
+</div>
+</div>
+
 {% endif %}
 {% endfor %}
 

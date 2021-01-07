@@ -5,79 +5,183 @@ sitemap: false
 permalink: /software/
 ---
 
-# Software
+<style>
+img{
+  border-radius: 10px;
+}
+iframe {
+  width: 175px;
+  display: inline;
+  vertical-align:middle;
+  <!-- margin-bottom:5px; -->
+  <!-- margin-left:5px; -->
+  <!-- border: 1px solid red; -->
+}
+.col-md-3 {
+  margin:0;
+  padding:0;
+  margin-top:10px;
+  margin-bottom:10px;
+  display:block;
+  overflow:hidden;
+  text-align:center;
+  display: table-cell;
+  height: auto;
+  float: none;
+  background:white;
+  border-radius:20px;
+  <!-- border: 1px solid black; -->
+}
+</style>
 
-<div class="rowl1">
+## Software
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>
+<a href="https://github.com/sbryngelson/QBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: QBMMLIB</button></a>
+<a href="https://github.com/sbryngelson/PyQBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: PyQBMMLIB</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Author:</b>
+<i>S. H. Bryngelson</i>
+
+<b>QBMMlib</b> is an <a href="https://github.com/sbryngelson/QBMMlib" target="_blank">open source Mathematica package</a> for solving populating balance equations with quadrature-based moment methods (QBMMs).
+QBMMs are used for fully-coupled disperse flow and combustion problems.
+However, formulating and closing the corresponding governing equations can be complex.
+QBMMlib makes using these methods simple and accessible:
+- Symbolic and automatic formulation of moment transport equations for a population balance equation and dynamical system
+- Moment inversion trades moment sets for quadrature points
+    - Algorithms: QMOM, HyQMOM, CQMOM, and more
+- Quadratures closes the moment transport and governing flow equations 
+- Embedded Runge--Kutta algorithms for _realizable_ time integration
+
+The algorithm initialization and solution can span _just 13 lines of code_.
+Example notebooks demonstrate QBMMlib on bubble dynamics problems.
+
+<b><a href="https://github.com/sbryngelson/PyQBMMlib" target="_blank">PyQBMMlib:</a></b> With Esteban Cisneros I developed a Python version of QBMMlib that leverages JIT compiling for significantly improved performance.
+
+</div>
+<div class="col-md-3 col-sm-12">
+  <iframe src="https://player.vimeo.com/video/456290405?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="132px" frameborder="0" allow="autoplay"></iframe>
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
 <a href="https://mfc-caltech.github.io" target="_blank">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" class="img-responsive" width="33%" style="display:block; margin-left:auto; margin-right:auto; border-radius: 10px; box-shadow:0px 0px 0px 0px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
 </a>
-<center><h4><b>High-fidelity Multiphase Flow Simulation</b></h4></center>
+<h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
+<a href="https://mfc-caltech.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-19.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
-  MFC is a fully-documented open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
-  It is capable of efficiently solving a wide range of flows, including droplet atomization, shock–bubble interaction, and gas bubble cavitation. 
-  It includes the 5- and 6-equation thermodynamically-consistent diffuse-interface models to handle such flows, which are coupled to high-order interface-capturing methods, HLL-type Riemann solvers, and TVD time-integration schemes that are capable of simulating unsteady flows with strong shocks. 
-  The numerical methods are implemented in a flexible, modular framework that is amenable to future development. 
-  The methods are validated via comparisons to experimental results for shock–bubble, shock–droplet, and shock–water cylinder interaction problems and verified to be free of spurious oscillations for material-interface advection and gas–liquid Riemann problems. 
-  For smooth solutions, such as the advection of an isentropic vortex, the methods are verified to be high-order accurate.
+<b>Authors:</b>
+<i>S. H. Bryngelson, V. Coralic, K. Schmidmayer, J. S. Spratt, M. Rodriguez, B. Stevens, A. Charalampopoulos, S. Cao, J. Meng, K. Maeda</i>
 
-<ul style="overflow: hidden"></ul>
+MFC is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
+Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
+The simulation method consists of:
+- 5- and 6-equation diffuse-interface models
+- High-order-accurate WENO interface-capturing methods
+- HLL-type Riemann solvers
+- Sub-grid bubble models
+- TVD time-integration schemes 
+
+MFC is actively developed and gaining capabilities for QMOM-based solutions to sub-grid flows and neural-network enhanced interface capturing.
+</div>
+<div class="col-md-3 col-sm-12">
+  <iframe src="https://player.vimeo.com/video/455887952?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/455888264?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
+</div>
+</div>
 </div>
 
-<div class="rowl1">
-
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
 <a href="https://code-mphi.github.io/ECOGEN/" target="_blank">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/ecogen.png" class="img-responsive" width="40%" style="display:block; margin-left:auto; margin-right:auto; border-radius: 10px; box-shadow:0px 0px 0px 0px;" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/ecogen.png" width="60%" />
 </a>
-<center><h4><b>Multiphase and Capillary Flow Solver</b></h4></center>
+<h4><b>Multiphase and Capillary Flow Solver</b></h4>
+<a href="https://code-mphi.github.io/ECOGEN/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://github.com/code-mphi/ECOGEN" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="http://dx.doi.org/10.1016/j.cpc.2019.107093" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
-ECOGEN is an open-source computational fluid dynamics code. 
-It is a multi-model tool devoted to the simulation of compressible flows. 
-A large range of problems can be solved, from single-phase gas dynamics to multiphase, multiphysics flows including interface problems between pure fluids. 
-This code is suited for strongly unsteady flows. 
-The numerical solver of ECOGEN is implemented in a flexible structure making the code able to compute such complex flows on different kinds of discretization grids. 
-The code solves sets of partial differential equations using diffuse-interface methods. 
-The implemented hyperbolic solver is able to deal with Cartesian geometries as well as unstructured grids. 
-A recent adaptive mesh refinement method is also implemented. 
-Phase change problems (heating or cavitating flows) can be treated with respect to physical conservation principles and thermodynamics consistency.
+<b>Authors:</b>
+<i>K. Schmidmayer, E. Daniel, S. Le Martelot, S. H. Bryngelson, F. Petitpas</i>
 
-<!-- * Evolutive, Compressible, Open-Source, Genuine, Easy, N-phase -->
-<ul style="overflow: hidden"></ul>
+ECOGEN is an open source fluid flow simulation tool.
+Interface- and shock-capturing methods handle single-phase gas dynamics and multi-phase and multi-physics flows.
+Unstructured grids and adaptive mesh refinement (AMR) enable resolution of otherwise inaccessible spatiotemporal scales.
+Multiphase ECOGEN simulations regularly scale up to thousands of cores.
+The code base is object-oriented and modular, assisting future development.
+</div>
+<div class="col-md-3 col-sm-12">
+  <iframe src="https://player.vimeo.com/video/456283026?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="180px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/455889269?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="70px" frameborder="0" allow="autoplay"></iframe>
+</div>
+</div>
 </div>
 
-<div class="rowl1">
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
 <a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/xpacc.png" class="img-responsive" width="33%" style="display:block; margin-left:auto; margin-right:auto; border-radius: 10px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/xpacc.png" width="50%" />
 </a>
-<center><h4><b>PlascomCM/Plascom2: Multi-physics Turbulent Flows</b></h4></center>
+<h4><b>PlasCom2: Multi-physics Turbulent Flows</b></h4>
+<a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
 
-PlasCom2 is a variable-order, single- and multi-block (overset), compressible Navier-Stokes solver. 
-It supports hybrid MPI+X massively parallel multiphysics simulation application designed for solving reactive flows on 1, 2, and 3-dimensional curvilinear domains discretized by multiple, overlapping block-structured grids.
-It consists of a C++ infrastructure with computational kernels written in F90 and C++.
-Using OpenMP and offloading to GPGPU's where available,   PlasCom2 routinely runs and scales to all available processing units on the largest machines in the United States, including modern Sierra-like architectures.
-It uses parallel HDF5 for its IO substrate.
-It also takes advantage of home-grown "CS tools":
+<b>Authors:</b>
+<i>M. Campbell, E. Cisneros, S. H. Bryngelson, D. Buchta, M. Anderson, M. Diener, M. Smith</i>
 
-* **Pick-Pocket**: A library that provides dynamic discovery of intra-application data movement and chooses policies to effectively optimize the runtime data motion for performance.
-* **Hydra**: A library that provides functionalities for offloading OpenMP threads to GPGPUs, and utilities for data movement in to/from GPU.
-* **TanGram**: Helps create and manage architecture-neutral expressions of computational kernels which can be transformed into architecture-specific versions targeting a specific platform.
-* **Leap**: Provides multi-rate time integration which mitigates grid/timestep limitation disparity due to localized features which impose domain-wide timestep limitations.  Leap lets us take different timesteps on different grids.
-* **ICE**: The Illinois Computing Environment helps tie it all together by swapping in the various components for depending on which platform (or problem) we target.
-ICE can also identify and actuate code transforms to optimize performance.
-<ul style="overflow: hidden"></ul>
+PlasCom2 is a variable-order, single- and multi-block (overset), compressible Navier--Stokes solver. 
+It supports curvilinear domains discretized by multiple, overlapping block-structured grids.
+Hybrid MPI+X and OpenMP handle parallel communication and GPGPU offloading.
+PlasCom2 utilizes home-grown libraries to manage these interactions:
+* **Pick-Pocket**: Dynamic discovery of data movement optimizes data motion
+* **Hydra**: Offloads OpenMP threads to GPGPUs, manages data movement
+* **TanGram**: Manages architecture-neutral computational kernels 
+* **Leap**: Multi-rate time integration to mitigate grid/timestep limitations
+
+PlasCom2 routinely scales to all available processing units on the largest machines in the United States, including modern Sierra-like architectures.
+</div>
+<div class="col-md-3 col-sm-12">
+  <div style="background-color:black;">
+  <iframe src="https://player.vimeo.com/video/455887825?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="140px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/456436051?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="130px" frameborder="0" allow="autoplay"></iframe>
+  </div>
+</div>
+</div>
 </div>
 
  
-<div class="rowl1">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/rbc3d.png" class="img-responsive" width="33%" style="display:block; margin-left:auto; margin-right:auto; border-radius: 10px" />
-<center><h4><b>Spectral Boundary Integral Solver for Cell-scale Flows</b></h4></center>
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/rbc3d.png" width="50%" />
+<h4><b>Spectral Boundary Integral Solver for Cell-scale Flows</b></h4>
 
-RBC3D solves the boundary integral equation form of the Stokes equations using spectral methods. 
-This form of the equations only discretizes the boundaries present in this problem, which in this case include model cells and droplets.
-No-slip boundary conditions for, e.g., model vessel walls are imposed via a weak-formulation of the velocity-force equations and iterative solve to ensure the surface velocity is nearly zero.
-The quadrature is switched to a near-singular formulation when boundaries are close, avoiding the singularity of the associated Green's functions.
-A short-range repulsion force, of similar character to electrostatic repulsion present in actual cells, helps ensure that neighboring objects do not intersect.
-The equations are solved in parallel via MPI.
+<b>Authors:</b>
+<i>S. H. Bryngelson, H. Zhao, A. Isfahani, J. B. Freund</i>
 
-<ul style="overflow: hidden"></ul>
+RBC3D is a flow solver for soft capsules and cells.
+It solves the boundary integral form of the Stokes equations via an algorithm tailored for cell-scale simulations:
+* Spectrally-accurate spherical harmonics represent the deforming surfaces
+* Modified Green's function approximation used for near-range interactions
+* Electrostatic-like repulsion prevents cells from intersecting
+* Weak-formulation of no-slip boundary conditions (e.g., vessel walls)
+
+These features ensure that simulations are robust.
+Parallel communication (MPI) enables large simulations, such as model vascular networks.
 </div>
-
+<div class="col-md-3 col-sm-12">
+  <img src="{{site.url}}{{site.baseurl}}/images/respic/network.jpeg" width="175px "/>
+</div>
+</div>
+</div>

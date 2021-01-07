@@ -49,6 +49,9 @@ I earned a Masters in Mechanical Engineering from Stanford University (2012) a B
  {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='max-height: 70px; max-width: 170px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='max-height: 70px; max-width: 170px;'/>{% endif %}   {% endfor %}
 </div>
 
+<div class="jumbotron">
+  <h4>Sponsors</h4>
+  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
+ {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/logopic/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
+  </div>
 </div>
-
-

@@ -4,22 +4,23 @@ email: mrdz@caltech.edu
 description: Academic webpage of Mauro Rodriguez Jr., PhD
 baseurl: ""
 url: ""
-affiliation: >
-    I am part of the <a href="http://www.eas.caltech.edu/" target="_blank">Division of Engineering and Applied Science</a> 
-    at the California Institute of Technology
 
 # Google analytics ID
 #google_analytics: UA-167467135-1
 
-# Location info. (shown in footer)
+# Footer info
+affiliation: >
+    Dr. Spencer Bryngelson<br/>
+    Senior Postdoctoral Scholar<br/>
+    <a href="http://www.eas.caltech.edu/" target="_blank">Engineering and Applied Science</a><br/>
+    California Institute of Technology
+
 location: >
-  Office: <br/>
-  <a href="http://www.mce.caltech.edu/about/gates_thomas" target="_blank">Gates-Thomas Laboratory</a> <br/>
+  <a href="http://www.mce.caltech.edu/about/gates_thomas" target="_blank">Gates-Thomas Laboratory</a><br/>
   California Institute of Technology <br/>
   1200 E California Blvd<br/>
   Pasadena, CA 91125, MC104-44
 
-# Contact info. (shown in footer)
 contact: >
     <a href="mailto:mrdz@caltech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Mauro via email</a> <br/>
 
@@ -42,9 +43,6 @@ include:
   - .htaccess
   - _pages
 
-sass:
-  sass_dir: _sass
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -63,3 +61,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
+  - switch_theme.sh
+  - makebib.py
