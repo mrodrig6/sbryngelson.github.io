@@ -1,0 +1,10 @@
+@article{Mancia2021,
+author = {Mancia, Lauren and Rodriguez, Mauro and Sukovich, Jonathan R. and Haskel, Scott and Xu, Zhen and Johnsen, Eric},
+doi = {10.1016/j.ultrasmedbio.2020.12.007},
+journal = {Ultrasound Med. Biol.},
+pages = {1--6},
+title = {{Acoustic Measurements of Nucleus Size Distribution at the Cavitation Threshold}},
+url = {https://linkinghub.elsevier.com/retrieve/pii/S0301562920305639},
+volume = {1},
+year = {2021}
+}

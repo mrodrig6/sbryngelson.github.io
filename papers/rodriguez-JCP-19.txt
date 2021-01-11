@@ -1,0 +1,10 @@
+@article{Rodriguez2019,
+author = {Rodriguez, M. and Johnsen, E.},
+doi = {10.1016/j.jcp.2018.10.035},
+journal = {J. Comput. Phys.},
+pages = {70--90},
+publisher = {Elsevier Inc.},
+title = {{A high-order accurate five-equations compressible multiphase approach for viscoelastic fluids and solids with relaxation and elasticity}},
+volume = {379},
+year = {2019}
+}

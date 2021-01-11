@@ -1,7 +1,0 @@
-@phdthesis{Rodriguez2018,
-author = {Rodriguez, M.},
-pages = {1--152},
-school = {University of Michigan},
-title = {{Numerical Simulations of Bubble Dynamics Near Viscoelastic Media}},
-year = {2018}
-}

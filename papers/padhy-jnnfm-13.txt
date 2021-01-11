@@ -1,0 +1,11 @@
+@article{Padhy2013,
+author = {Padhy, S. and Rodriguez, M. and Shaqfeh, E. S G and Iaccarino, G. and Morris, J. F. and Tonmukayakul, N.},
+doi = {10.1016/j.jnnfm.2013.07.007},
+journal = {J. Nonnewton. Fluid Mech.},
+pages = {120--129},
+publisher = {Elsevier B.V.},
+title = {{The effect of shear thinning and walls on the sedimentation of a sphere in an elastic fluid under orthogonal shear}},
+url = {http://dx.doi.org/10.1016/j.jnnfm.2013.07.007},
+volume = {201},
+year = {2013}
+}

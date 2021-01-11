@@ -1,0 +1,10 @@
+@article{Mancia2020,
+author = {Mancia, Lauren and Rodriguez, Mauro and Sukovich, Jonathan and Xu, Zhen and Johnsen, Eric},
+doi = {10.1088/1361-6560/abb02b},
+journal = {Phys. Med. Biol.},
+pages = {225014},
+title = {{Single–bubble dynamics in histotripsy and high–amplitude ultrasound: Modeling and validation}},
+url = {https://iopscience.iop.org/article/10.1088/1361-6560/abb02b},
+volume = {65},
+year = {2020}
+}

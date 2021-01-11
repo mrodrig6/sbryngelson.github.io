@@ -1,0 +1,10 @@
+@article{Mancia2019,
+author = {Mancia, Lauren and Vlaisavljevich, Eli and Yousefi, Nyousha and Rodriguez, Mauro and Ziemlewicz, Timothy J. and Lee, Fred T. and Henann, David and Franck, Christian and Xu, Zhen and Johnsen, Eric},
+doi = {10.1088/1361-6560/ab5010},
+journal = {Phys. Med. Biol.},
+pages = {225001},
+title = {{Modeling tissue-selective cavitation damage}},
+url = {https://linkinghub.elsevier.com/retrieve/pii/S0031938416312148 https://iopscience.iop.org/article/10.1088/1361-6560/ab5010},
+volume = {64},
+year = {2019}
+}

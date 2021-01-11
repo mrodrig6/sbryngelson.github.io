@@ -1,0 +1,8 @@
+@phdthesis{Rodriguez2018,
+author = {Rodriguez, M.},
+pages = {1--152},
+school = {University of Michigan},
+title = {{Numerical Simulations of Bubble Dynamics Near Viscoelastic Media}},
+url = {http://hdl.handle.net/2027.42/147536},
+year = {2018}
+}

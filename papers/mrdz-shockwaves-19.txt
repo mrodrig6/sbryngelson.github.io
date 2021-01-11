@@ -1,9 +1,0 @@
-@article{Rodriguez2018a,
-author = {Rodriguez, Mauro and Johnsen, Eric and Powell, Kenneth G.},
-doi = {10.1007/s00193-018-0884-3},
-journal = {Shock Waves},
-pages = {717--734},
-title = {{A high-order accurate AUSM+-up approach for simulations of compressible multiphase flows with linear viscoelasticity}},
-volume = {29},
-year = {2019}
-}

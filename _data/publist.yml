@@ -2,7 +2,7 @@
   authors: <b>M. Rodriguez</b>, S. A. Beig, E. Johnsen, and C. Barbier 
   url: rodriguez-jfm-21
   image: jfm2021.png
-  display: <b>In preparation</b> Journal of Fluid Mechanics
+  journal: <b>In preparation</b> Journal of Fluid Mechanics
   year: 2021
   abstract: "The collapse of cavitation bubbles in channel flows can give rise to structural damage along neighbouring walls. Although the collapse of a bubble near a single wall has been studied extensively, far less is known about bubble collapse between two walls, e.g. as in a channel. We conduct highly resolved, direct simulations of the Navier--Stokes equations to investigate the bubble dynamics and pressures produced by the collapse of a bubble between two parallel rigid walls. We examine the dependence of the dynamics and pressures on the initial bubble location, confinement, and driving pressure. Two different collapse behaviours and re-entrant jet directions are observed when the bubble is centred in the channel, depending on the confinement ratio. Under significant confinement, wall-parallel re-entrant jets impinge upon each other and further intensify the collapse of the vortex ring, thus achieving higher maximum pressures, relative to a single wall configuration."
 
@@ -10,25 +10,26 @@
   authors: <b>M. Rodriguez</b>, S. H. Bryngelson, and T. Colonius
   url: rodriguez-cav-21
   image: cav2021.png
-  display: <b>Accepted</b> 11th International Symposium on Cavitation
+  journal: <b>Accepted</b> 11th International Symposium on Cavitation
   year: 2021
   abstract: "Bubbles grow and cavitate near compliant surfaces in biomedical therapies using focused ultrasound to treat pathogenic tissues. The ultrasound pressure waves grow and collapse the bubbles. Upon collapse, the bubbles impinge themselves and generate shock waves that propagate into the surroundings. It is known that the frequency and driving waveform acts the phase-changing bubble contents. We hypothesize that phase change acts the bubble and shock wave dynamics. In this study, we investigate acoustically driven bubble growth due to phase change via numerical simulation. We incorporate phase change relaxation methods in the six-equation, multiphase model of the Multi-component Flow Code (MFC). The implementation is verifed with 1D cavitation and shock problems. We simulate a 2D single bubble growing due to an expansion wave next to a solid, rigid wall to observe phase change near the interface."
 
-- title: Characterizing viscoelastic materials via ensemble-based data assimilation of bubble collapse observations 
+- title: 'Characterizing viscoelastic materials via ensemble-based data assimilation of bubble collapse observations' 
   authors: J. S. Spratt, <b>M. Rodriguez</b>, K. Schimdmayer, S. H. Bryngelson, J. Yang, C. Franck, and T. Colonius
-  url: spratt-jmps-21
+  url: spratt-JMPS-21
   image: jmps2021.png
-  display: <b>Under review</b> Journal of Mechanics and Physics of Solids
-  year: 2021
-  arxiv: /2008.04410
+  journal: Journal of Mechanics and Physics of Solids
+  #year: Under review
+  arxiv: 2008.04410
   abstract: "Viscoelastic material properties at high strain rates are needed to model many biological and medical systems. Bubble cavitation can induce such strain rates, and the resulting bubble dynamics are sensitive to the material properties. Thus, in principle, these properties can be inferred via measurements of the bubble dynamics. Estrada et al. (2018) demonstrated such bubble-dynamic high-strain-rate rheometry by using least-squares shooting to minimize the difference between simulated and experimental bubble radius histories. We generalize their technique to account for additional uncertainties in the model, initial conditions, and material properties needed to uniquely simulate the bubble dynamics. Ensemble-based data assimilation minimizes the computational expense associated with the bubble cavitation model. We test an ensemble Kalman filter (EnKF), an iterative ensemble Kalman smoother (IEnKS), and a hybrid ensemble-based 4D--Var method (En4D--Var) on synthetic data, assessing their estimations of the viscosity and shear modulus of a Kelvin--Voigt material. Results show that En4D--Var and IEnKS provide better moduli estimates than EnKF. Applying these methods to the experimental data of Estrada et al. (2018) yields similar material property estimates to those they obtained, but provides additional information about uncertainties. In particular, the En4D--Var yields lower viscosity estimates for some experiments, and the dynamic estimators reveal a potential mechanism that is unaccounted for in the model, whereby the viscosity is reduced in some cases due to material damage occurring at bubble collapse."
 
-- title: Acoustic measurements of cavitation nucleus size distribution
+- title: Acoustic measurements of nucleus size distribution at the cavitation threshold
   authors: L. Mancia, <b>M. Rodriguez</b>, J. R. Sukovich, Z. Xu, and E. Johnsen
   url: mancia-pmb-21
   image: umb2020.png
-  display: <b>accepted</b> Ultrasound in Medicine and Biology 
+  journal: Ultrasound in Medicine and Biology 1
   year: 2021
+  doi: 10.1016/j.ultrasmedbio.2020.12.007
   abstract: "Understanding the acoustic cavitation threshold is essential for minimizing cavitation bioeffects in diagnostic ultrasound and for controlling cavitation–
 mediated tissue ablation in focused ultrasound procedures. The homogeneous cavitation threshold is an intrinsic material property of recognized importance to a variety of applications requiring cavitation control. However, acoustic measurements of the cavitation threshold in water differ from those predicted by classical nucleation theories. This persistent discrepancy is explained by combining novel methods for acoustically nucleating single bubbles at threshold with numerical modeling to obtain a nucleus size distribution consistent with first–principles estimates for ion–stabilized nucleii. We identify acoustic cavitation at threshold as a reproducible subtype of heterogeneous cavitation with a characteristic nucleus size distribution. Knowledge of the nucleus size distribution could inspire new approaches for achieving cavitation control in water, tissue, and a variety of other media."
 
@@ -36,7 +37,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: <b>M. Rodriguez</b>, I. M. Hasbun, J. L. Estrada, and D. L. Renaud
   url: rodriguez-conced-20
   image: conecd2020b.png
-  display: "2020 Collaborative Network for Computing and Engineering Diversity, Virtual On-line"
+  journal: "2020 Collaborative Network for Computing and Engineering Diversity, Virtual On-line"
   year: 2020
   doi: 
   abstract: "Despite the rapid growth of Hispanic undergraduate student enrollment into engineering programs, there is limited work on the post-graduation ability of these engineers to succeed in leadership workforce roles. The Society of Hispanic Professional Engineers (SHPE) developed and implemented a leadership framework that integrates McCormick’s socio-cognitive leadership theory and SHPE’s annual programing. SHPE hosts the annual National Institute of Leadership Advancement (NILA) for its chapter leaders (i.e., university students and engineering professionals). NILA serves as a leadership development intervention for its leaders by developing their individual, community, and organizational leadership skills. The NILA framework and its effect on undergraduate students during NILA 2019 is detailed in the ASEE CoNECD conference proceeding titled, “Social-cognitive leadership theory of SHPE’s premier leadership conference for undergraduates and professionals in the STEM workforce.” The development of leadership self-efficacy of Hispanic engineering professionals in the workforce that attended NILA 2019 is considered in this work. An internally developed leadership self-efficacy assessment was issued to the attendees pre- and post-NILA. Following the same methods as the student study, the professionals’ self-efficacy is analyzed using the leadership factors determined for the students from an Exploratory Factor Analysis. Strategy-oriented leadership was seen to be most increased among the professionals and students. The analysis showed the feasibility of the framework as a unified curriculum for both students and professionals and supplied valuable lessons learned for future NILA assessments."
@@ -45,7 +46,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: S. L. Plata, I. M. Hasbun, <b>M. Rodriguez</b>, and D. L. Renaud
   url: plata-conced-20
   image: conecd2020a.png
-  display: "2020 Collaborative Network for Computing and Engineering Diversity, Virtual On-line"
+  journal: "2020 Collaborative Network for Computing and Engineering Diversity, Virtual On-line"
   year: 2020
   doi: 
   abstract: "The rapid growth of Hispanics in collegiate engineering disciplines over the past decade has spurred the Society of Hispanic Professional Engineers (SHPE) to accelerate the sophistication of its leadership development and annual chapter programming infrastructure. SHPE aligns this effort towards its mission fulfillment of advancing Hispanics as valued contributors and leaders in the Science, Technology, Engineering, and Mathematics (STEM) workforce. To this end, the National Institute for Leadership Advancement (NILA), SHPE’s premier leadership development conference, and annual chapter programming cycle was mapped to McCormick’s socio-cognitive leadership model due to its incorporation of domain-specific leadership and self-efficacy. We measured NILA attendees gained self-efficacy through pre- and post-conference surveys. The survey questions and assessment validity are presented. The survey results show a growth of attendees’ self-efficacy and preparation to interface with their leadership environment (i.e., STEM collegiate system and workforce). Given McCormick’s leadership model and no specific approach to leadership self-efficacy, the programming and chapter-based organizational infrastructure is widely applicable to other chapter-based organizations."
@@ -54,7 +55,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: <b>M. Rodriguez</b>, K. M. Siles, and D. L. Renaud
   url: rodriguez-asee-20
   image: asee2020.png
-  display: 2020 ASEE Virtual Annual Conference Content Access
+  journal: 2020 ASEE Virtual Annual Conference Content Access
   year: 2020
   doi: "10.18260/1-2--33997"
   abstract: "A decade-long account of Society of Hispanic Professional Engineers’ (SHPE), a national non-profit STEM diversity organization, nation-wide chapter development, reporting, and compliance program is presented. In the late 2000’s, the program transitioned from the End-of-Year Report (EOYR) to the National Report Program (NRP). Throughout the 2010’s, SHPE underwent internal infrastructure changes, including an inter-organizational merger, to expand and better fulfill its mission to serve the Hispanic community. In turn, the NRP underwent changes from the EOYR to via Strengths, Weakness, Opportunities and Threats analysis. The current iteration supplements on the former by targeting chapter growth, development, and management through a Science, Technology, Engineering, and Math (STEM) workforce-preparedness educational framework. The program has grown past its namesake of reporting and compliance to the leading program that educates and prepares chapter leaders on the necessary management and operations tools for mission alignment and compliance towards member success. The current NRP programmatic structure serves as a data- and best practices-driven chapter development framework to prepare Hispanics STEM professionals for the STEM workforce and ensure organizational mission fulfillment. Lessons learned, current outcomes, and developments from the decade-long history are also presented. The current NRP serves as an example of best practices for other peer chapter-based national STEM diversity organizations."
@@ -63,7 +64,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: L. Mancia, <b>M. Rodriguez</b>, J. Sukovich, Z. Xu, and E. Johnsen
   url: mancia-pmb-20
   image: pmb2020.png
-  display: Physics in Medicine and Biology 65
+  journal: Physics in Medicine and Biology 65
   year: 2020
   doi: 10.1088/1361-6560/abb02b
   abstract: "A variety of approaches have been used to model the dynamics of a single, isolated bubble nucleated by a microsecond length high–amplitude ultrasound pulse (e.g. a histotripsy pulse). Until recently, the lack of single–bubble experimental radius vs. time data for bubble dynamics under a well–characterized driving pressure has limited model validation efforts. This study uses radius vs. time measurements of single, spherical histotripsy–nucleated bubbles in water [Wilson et al., Phys. Rev. E, 2019, 99, 043103] to quantitatively compare and validate a variety of bubble dynamics modeling approaches, including compressible and incompressible models as well as different thermal models. A strategy for inferring an analytic representation of histotripsy waveforms directly from experimental radius vs. time and cavitation threshold data is presented. We compare distributions of a calculated validation metric obtained for each model applied to 88 experimental data sets. There is minimal distinction (< 1%) among the modeling approaches for compressibility and thermal effects considered in this study. These results suggest that our proposed strategy to infer the waveform, combined with simple models minimizing parametric uncertainty and computational resource demands accurately represent single–bubble dynamics in histotripsy, including at and near the maximum bubble radius. Remaining sources of parametric and model–based uncertainty are discussed."
@@ -72,7 +73,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: L. Mancia, E. Vlaisavljevich, N. Yousefi, <b>M. Rodriguez</b>, T. J. Ziemlewicz, F. T. Lee, D. Henann, C. Franck, Z. Xu, and E. Johnsen
   url: mancia-pmb-19
   image: pmb2019.png
-  display: Physics in Medicine and Biology 64
+  journal: Physics in Medicine and Biology 64
   year: 2019
   doi: 10.1088/1361-6560/ab5010
   abstract: "The destructive growth and collapse of cavitation bubbles are used for therapeutic purposes in focused ultrasound procedures and can contribute to tissue damage in traumatic injuries. Histotripsy is a focused ultrasound procedure that relies on controlled cavitation to homogenize soft tissue. Experimental studies of histotripsy cavitation have shown that the extent of ablation in different tissues depends on tissue mechanical properties and waveform parameters. Variable tissue susceptibility to the large stresses, strains, and strain rates developed by cavitation bubbles has been suggested as a basis for localized liver tumor treatments that spare large vessels and bile ducts. However, field quantities developed within microns of cavitation bubbles are too localized and transient to measure in experiments. Previous numerical studies have attempted to circumvent this challenge but made limited use of realistic tissue property data. In this study, numerical simulations are used to calculate stress, strain, and strain rate fields produced by bubble oscillation under histotripsy forcing in a variety of tissues with literature-sourced viscoelastic and acoustic properties. Strain field calculations are then used to predict a theoretical damage radius using tissue ultimate strain data. Simulation results support the hypothesis that differential tissue responses could be used to design tissue-selective treatments. Results agree with studies correlating tissue ultimate fractional strain with resistance to histotripsy ablation and are also consistent with experiments demonstrating smaller lesion size under exposure to higher frequency waveforms. Methods presented in this study provide an approach for modeling tissue-selective cavitation damage in general."
@@ -80,9 +81,9 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
 
 - title: A comparative study of the dynamics of laser and acoustically generated bubbles in viscoelastic media
   authors: C. T. Wilson, T. L. Hall, E. Johnsen, L. Mancia, <b>M. Rodriguez</b>, J. E. Lundt, T. Colonius, D. L. Henann, C. Franck, Z. Xu, and J. R. Sukovich
-  url: wilson-pre-19
+  url: wilson-PRE-19
   image: pre2019.png
-  display: Physical Review E 99
+  journal: Physical Review E 99
   year: 2019
   doi: 10.1103/PhysRevE.99.043103
   abstract: "Experimental observations of the growth and collapse of acoustically and laser-nucleated single bubbles in water and agarose gels of varying stiffness are presented. The maximum radii of generated bubbles decreased as the stiffness of the media increased for both nucleation modalities, but the maximum radii of laser-nucleated bubbles decreased more rapidly than acoustically nucleated bubbles as the gel stiffness increased. For water and low stiffness gels, the collapse times were well predicted by a Rayleigh cavity, but bubbles collapsed faster than predicted in the higher stiffness gels. The growth and collapse phases occurred symmetrically (in time) about the maximum radius in water but not in gels, where the duration of the growth phase decreased more than the collapse phase as gel stiffness increased. Numerical simulations of the bubble dynamics in viscoelastic media showed varying degrees of success in accurately predicting the observations."
@@ -91,25 +92,34 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: <b>M. Rodriguez</b>, E. Johnsen, and K. Powell
   url: rodriguez-shockwaves-19
   image: shockwaves2019.png
-  display: Shockwaves 29
+  journal: Shockwaves 29
   year: 2019
   doi: 10.1007/s00193-018-0884-3 
   abstract: "An Eulerian approach for simulations of wave propagation in multiphase, viscoelastic media is developed in the context of the Advection Upstream Splitting Method (AUSM). We extend the AUSM scheme to the five-equation model for simulations of interfaces between gases, liquids, and solids with constitutive relations appropriately transported. In this framework, the solid's deformations are assumed to be infinitesimally small such that they can be modeled using linear viscoelastic models, e.g., generalized Zener. The Eulerian framework addresses the challenge of calculating strains, more naturally expressed in a Lagrangian framework, by using a hypoelastic model that takes an objective Lie derivative of the constitutive relation to transform strains into velocity gradients. Our approach introduces elastic stresses in the convective fluxes that are treated by generalizing AUSM flux-vector splitting (FVS) to account for the Cauchy stress tensor. We determine an appropriate discretization of non-conservative equations that appear in the five-equation multiphase model with AUSM schemes to prevent spurious oscillations at material interfaces. The framework's spatial scheme is solution-adaptive with a discontinuity sensor discriminating between smooth and discontinuous regions. The smooth regions are computed using explicit high-order central differences. At discontinuities regions (i.e., shocks, material interfaces and contacts), the convective fluxes are treated using a high-order Weighted Essentially Non-Oscillatory (WENO) scheme with AUSM$^+$-up for upwinding. The framework is used to simulate 1D and 2D problems that demonstrate the ability to maintain equilibrium interfacial conditions and solve challenging multi-dimensional and multi-material problems."
 
 - title: A high-order accurate five-equations compressible multiphase approach for viscoelastic fluids and solids with relaxation and elasticity 
   authors: <b>M. Rodriguez</b> and E. Johnsen 
-  url: rodriguez-jcp-19
+  url: rodriguez-JCP-19
   image: jcp2019.png
-  display: Journal of Computational Physics 379
+  journal: Journal of Computational Physics 379
   year: 2019
   doi: 10.1016/j.jcp.2018.10.035 
   abstract: "A novel Eulerian approach is proposed for numerical simulations of wave propagation in viscoelastic media, for application to shocks interacting with interfaces between fluids and solids. We extend the five-equations multiphase interface-capturing model, based on the idea that all the materials (gases, liquids, solids) obey the same equation of state with spatially varying properties, to incorporate the desired constitutive relation; in this context, interfaces are represented by discontinuities in material properties. We consider problems in which the deformations are small, such that the substances can be described by linear constitutive relations, specifically, Maxwell, Kelvin–Voigt or generalized Zener models. The main challenge lies in representing the combination of viscoelastic, multiphase and compressible flow. One particular difficulty is the calculation of strains in an Eulerian framework, which we address by using a conventional hypoelastic model in which an objective time derivative (Lie derivative) of the constitutive relation is taken to evolve strain rates instead. The resulting eigensystem is analyzed to identify wave speeds and characteristic variables. The spatial scheme is based on a solution-adaptive formulation, in which a discontinuity sensor discriminates between smooth and discontinuous regions. To compute the convective fluxes, explicit high-order central differences are applied in smooth regions, while a high-order finite-difference Weighted Essentially Non-Oscillatory (WENO) scheme is used at discontinuities (shocks, material interfaces and contacts). The numerical method is verified in a comprehensive fashion using a series of smooth and discontinuous (shocks and interfaces), one- and two-dimensional test problems."
+
+- title: 'Numerical Simulations of Bubble Dynamics Near Viscoelastic Media'
+  authors: <b>M. Rodriguez</b>
+  url: rodriguez-thesis-18
+  image: thesis18.png
+  journal: Thesis
+  year: 2018
+  doi: http://hdl.handle.net/2027.42/147536
+  abstract: "Cavitation-induced damage occurs in a wide range of applications, including in naval hydrodynamics, medicine, and the Spallation Neutron Source. Local transient pressure decreases in liquid flow may give rise to explosive bubble growth and violent collapse, with shock waves produced at collapse interacting with neighboring solids. Although the mechanisms of erosion to hard, metallic solids can be predicted in relatively simple geometries, damage to soft materials (e.g., elastomeric coatings, soft tissue) or in confined geometries is less well understood. In such problems, the constitutive models describing the medium are non-trivial and include e ects such as (nonlinear) elasticity, history (relaxation effects) and viscosity. As a result, the influence of the shock on the material and the response of the material to the shock are poorly understood. To gain fundamental insights into cavitation-induced damage to both soft objects and rigid materials, we develop a novel Eulerian approach for numerical simulations of wave propagation in heterogeneous viscoelastic media. We extend the five-equations multiphase, interface-capturing model, based on the idea that all the materials (gases, liquids, solids) obey the same equation of state with spatially varying properties, to incorporate the desired constitutive relation. We consider problems in which the deformations are small, such that the substances can be described by linear viscoelastic constitutive relations. One difficulty is the calculation of strains in an Eulerian framework, which we address by using a hypoelastic model in which an objective time derivative (Lie derivative) of the constitutive relation is taken to evolve strain rates. The resulting numerical framework is a solution-adaptive, high-order interface-capturing approach for compressible, multiphase flows involving linear viscoelasticity at all speeds. We then utilize this numerical framework to gain fundamental insights into cavitation damage (i) in a confined geometry, (ii) in shock wave lithotripsy, and (iii) to rigid objects covered by an elastomeric coating. We examine the maximum stresses, pressures, and temperatures along/in rigid/compliant objects. We quantify the e ect of confinement on an inertially collapsing bubble and determine the appropriate scaling governing the maximum pressures can predicted on the surfaces. We investigate the stresses produced to a model kidney stone due to a shock wave by examining the amplification of tensile stresses in the stone when a gas bubble is present. The impact loads on a polymeric coating relevant to naval engineering applications by shock-induced bubble collapse indicate how pitting and coating material ejection may take place by repeated cavitation events near the surface."
 
 - title: "Non-spherical bubble collapse near rigid and compliant surfaces" 
   authors: S. A. Beig, <b>M. Rodriguez</b>, and E. Johnsen 
   url: beig-shydro-2016
   image: snh2016.png
-  display: 31st Symposium on Naval Hydrodynamics
+  journal: 31st Symposium on Naval Hydrodynamics
   year: 2016
   abstract: "The inertial collapse of cavitation bubbles is known to be capable of damaging its surroundings whether rigid or compliant. In order to explore this phenomenon, we leverage a novel numerical approach to investigate the dynamics of shock-induced collapse of (i) a single bubble, and (ii) multiple bubbles near rigid and compliant objects. Our Eulerian method is high-order accurate and captures discontinuities (shock waves and interfaces) in a stable fashion. We characterize the pressure and temperature fields based on the relevant non-dimensional parameters entering the problem. In particular, we show that bubble collapse causes temperature rises in neighboring solid objects via two mechanisms: the shock produced at collapse and heat diffusion from the hot bubble close to the solid surface. We use a newly developed analytical thermal model to predict the temperature distribution within the neighboring surface. A numerical model that accounts for the viscoelasticity of a compliant object is also used to study its interactions with the fluid flow. Finally, we quantify the effects of bubble-bubble interactions on collapse dynamics for multiple bubbles and cavitation-induced damage."
 
@@ -117,7 +127,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
   authors: S. Padhy, <b>M. Rodriguez</b>, E. S. G. Shaqfeh, G. Iaccarino, J. F. Morris, and N. Tonmukayakul
   url: padhy-jnnfm-13
   image: jnnfm2013.png
-  display: Journal of Non-Newtonian Fluid Mechanics 201
+  journal: Journal of Non-Newtonian Fluid Mechanics 201
   year: 2013
   doi: 10.1016/j.jnnfm.2013.07.007 
   abstract: "We investigate the sedimentation of a sphere in a viscoelastic fluid with a cross-shear flow by numerical simulation. The non-Newtonian properties of the suspending fluid determine the settling rate of the sphere. Experiments [Tonmukayakul et al., US Patent Number US8,024,962(B2) (2010); van den Brule and Gheissary, J. Non-Newton. Fluid Mech. 49 (1993) 123-132] have shown the settling rate increases with increase in cross-shear Weissenberg number, Wi, in elastic guar gum solutions and decreases in Boger fluids. In the present work, simulations of a sheared viscoelastic flow past a sphere are used to study the effect of the shear-thinning and elasticity of the carrying fluid on the sphere's settling rate. The elastic guar gum solutions are modeled using the Giesekus constitutive model. The parameters are obtained by fitting the rheological data. The drag on the sphere decreases, i.e. the settling rate increases, with an increase in the shear Weissenberg number that is in qualitative agreement with the experiments. The decrease in the drag is primarily due to the decrease in the polymer drag component because of shear-thinning. This is in contrast with the increase in the drag in Boger fluids due to the increase in viscous drag. The effect of different polymer characteristics such as shear thinning and elasticity on the flow field is presented. There is an optimum value for the amount of polymers in the solution for the increase in the viscous drag to overcome the decrease in the polymer drag leading to a net increase in the drag on the sphere. The effect of walls on the drag coefficients in Boger fluids is also investigated. It is demonstrated that the effect of the increase in the drag coefficients with Wi is accentuated as the interaction with the wall grows stronger. The wall interactions lead to an increase in viscous shear stresses downstream of the sphere, which causes the increase in the drag."

@@ -1,0 +1,11 @@
+@article{Wilson2019,
+author = {Wilson, C. T. and Hall, T. L. and Johnsen, E. and Mancia, L. and Rodriguez, M. and Lundt, J. E. and Colonius, T. and Henann, D. L. and Franck, C. and Xu, Z. and Sukovich, J. R.},
+doi = {10.1103/PhysRevE.99.043103},
+journal = {Phys. Rev. E},
+pages = {043103},
+publisher = {American Physical Society},
+title = {{Comparative study of the dynamics of laser and acoustically generated bubbles in viscoelastic media}},
+url = {https://link.aps.org/doi/10.1103/PhysRevE.99.043103},
+volume = {99},
+year = {2019}
+}
