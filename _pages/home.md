@@ -7,7 +7,8 @@ permalink: /
 
 ## Welcome!
 
-#### `research strategy`
+<!--- #### `research strategy`-->
+<h4>Research strategy</h4>
 
 My research strategy is to numerically compute flow physics to 
 understand, model, and manipulate flows. By advancing numerical 
@@ -31,7 +32,8 @@ Bryngelson & Freund, <i>Phys. Rev. Fluids</i> (2018)
 </div>
 <br/>
 
-#### `about me`
+<!-- #### `about me`-->
+<h4>About me</h4>
 
 I am a Postdoctoral Scholar Research Associate at the <a href="https://www.caltech.edu/" target="_blank">California Institute of Technology</a>, working with <a href="https://www.colonius.caltech.edu/" target="_blank">Professor Tim Colonius</a>.
 I have a Ph.D. in <a href="https://me.engin.umich.edu/" target="_blank">Mechanical Engineering</a> from the University of Michigan, Ann Arbor (2018), supervised by <a href="https://me.engin.umich.edu/people/faculty/eric-johnsen" target="_blank">Professor Eric Johnsen</a>.
