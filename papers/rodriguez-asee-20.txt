@@ -1,0 +1,9 @@
+@inproceedings{Rodriguez2020,
+author = {Rodriguez, Mauro and Siles, Karen and Renaud, Dora},
+booktitle = {2020 ASEE Virtual Annu. Conf. Content Access Proc.},
+doi = {10.18260/1-2--33997},
+publisher = {ASEE Conferences},
+title = {{A Decade-long Programmatic Study of SHPE's Chapter Reporting Program: Best Practices, Lessons Learned, and Outcomes for National Engineering Diversity Chapter-based Organizations (Experience)}},
+url = {http://peer.asee.org/33997},
+year = {2020}
+}

@@ -1,0 +1,8 @@
+@inproceedings{Rodriguez2021,
+address = {Virtual on-line},
+author = {Rodriguez, M. and Hasbun, I. and Estrada, J. L. and Renaud, D.},
+booktitle = {ASEE CoNECD},
+pages = {1--15},
+title = {{On the effect of SHPE's social-cognitiveleadership theory to Hispanic STEM professionals' leadership self-efficacy (work in progress)}},
+year = {2021}
+}

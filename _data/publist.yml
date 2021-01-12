@@ -1,18 +1,18 @@
-- title: Dynamics of an inertially collapsing gas bubble between two parallel, rigid walls 
-  authors: <b>M. Rodriguez</b>, S. A. Beig, E. Johnsen, and C. Barbier 
-  url: rodriguez-jfm-21
-  image: jfm2021.png
-  journal: <b>In preparation</b> Journal of Fluid Mechanics
-  year: 2021
-  abstract: "The collapse of cavitation bubbles in channel flows can give rise to structural damage along neighbouring walls. Although the collapse of a bubble near a single wall has been studied extensively, far less is known about bubble collapse between two walls, e.g. as in a channel. We conduct highly resolved, direct simulations of the Navier--Stokes equations to investigate the bubble dynamics and pressures produced by the collapse of a bubble between two parallel rigid walls. We examine the dependence of the dynamics and pressures on the initial bubble location, confinement, and driving pressure. Two different collapse behaviours and re-entrant jet directions are observed when the bubble is centred in the channel, depending on the confinement ratio. Under significant confinement, wall-parallel re-entrant jets impinge upon each other and further intensify the collapse of the vortex ring, thus achieving higher maximum pressures, relative to a single wall configuration."
+#- title: Dynamics of an inertially collapsing gas bubble between two parallel, rigid walls 
+#  authors: <b>M. Rodriguez</b>, S. A. Beig, E. Johnsen, and C. Barbier 
+#  url: rodriguez-jfm-21
+#  image: jfm2021.png
+#  journal: <b>In preparation</b> Journal of Fluid Mechanics
+#  year: 2021
+#  abstract: "The collapse of cavitation bubbles in channel flows can give rise to structural damage along neighbouring walls. Although the collapse of a bubble near a single wall has been studied extensively, far less is known about bubble collapse between two walls, e.g. as in a channel. We conduct highly resolved, direct simulations of the Navier--Stokes equations to investigate the bubble dynamics and pressures produced by the collapse of a bubble between two parallel rigid walls. We examine the dependence of the dynamics and pressures on the initial bubble location, confinement, and driving pressure. Two different collapse behaviours and re-entrant jet directions are observed when the bubble is centred in the channel, depending on the confinement ratio. Under significant confinement, wall-parallel re-entrant jets impinge upon each other and further intensify the collapse of the vortex ring, thus achieving higher maximum pressures, relative to a single wall configuration."
 
-- title: "Acoustically-induced bubble growth and phase change dynamics near compliant surfaces"
-  authors: <b>M. Rodriguez</b>, S. H. Bryngelson, and T. Colonius
-  url: rodriguez-cav-21
-  image: cav2021.png
-  journal: <b>Accepted</b> 11th International Symposium on Cavitation
-  year: 2021
-  abstract: "Bubbles grow and cavitate near compliant surfaces in biomedical therapies using focused ultrasound to treat pathogenic tissues. The ultrasound pressure waves grow and collapse the bubbles. Upon collapse, the bubbles impinge themselves and generate shock waves that propagate into the surroundings. It is known that the frequency and driving waveform acts the phase-changing bubble contents. We hypothesize that phase change acts the bubble and shock wave dynamics. In this study, we investigate acoustically driven bubble growth due to phase change via numerical simulation. We incorporate phase change relaxation methods in the six-equation, multiphase model of the Multi-component Flow Code (MFC). The implementation is verifed with 1D cavitation and shock problems. We simulate a 2D single bubble growing due to an expansion wave next to a solid, rigid wall to observe phase change near the interface."
+#- title: "Acoustically-induced bubble growth and phase change dynamics near compliant surfaces"
+#  authors: <b>M. Rodriguez</b>, S. H. Bryngelson, and T. Colonius
+#  url: rodriguez-cav-21
+#  image: cav2021.png
+#  journal: <b>Accepted</b> 11th International Symposium on Cavitation
+#  year: 2021
+#  abstract: "Bubbles grow and cavitate near compliant surfaces in biomedical therapies using focused ultrasound to treat pathogenic tissues. The ultrasound pressure waves grow and collapse the bubbles. Upon collapse, the bubbles impinge themselves and generate shock waves that propagate into the surroundings. It is known that the frequency and driving waveform acts the phase-changing bubble contents. We hypothesize that phase change acts the bubble and shock wave dynamics. In this study, we investigate acoustically driven bubble growth due to phase change via numerical simulation. We incorporate phase change relaxation methods in the six-equation, multiphase model of the Multi-component Flow Code (MFC). The implementation is verifed with 1D cavitation and shock problems. We simulate a 2D single bubble growing due to an expansion wave next to a solid, rigid wall to observe phase change near the interface."
 
 - title: 'Characterizing viscoelastic materials via ensemble-based data assimilation of bubble collapse observations' 
   authors: J. S. Spratt, <b>M. Rodriguez</b>, K. Schimdmayer, S. H. Bryngelson, J. Yang, C. Franck, and T. Colonius
@@ -35,7 +35,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
 
 - title: "On the effect of SHPE’s social-cognitive leadership theory to Hispanic STEM professionals’ leadership self-efficacy (work in progress)"
   authors: <b>M. Rodriguez</b>, I. M. Hasbun, J. L. Estrada, and D. L. Renaud
-  url: rodriguez-conced-20
+  url: rodriguez-conecd-20
   image: conecd2020b.png
   journal: "2020 Collaborative Network for Computing and Engineering Diversity, Virtual On-line"
   year: 2020
@@ -44,7 +44,7 @@ mediated tissue ablation in focused ultrasound procedures. The homogeneous cavit
 
 - title: "Social-cognitive leadership theory of SHPE’s premier leadership conference for undergraduates and professionals in the STEM workforce"
   authors: S. L. Plata, I. M. Hasbun, <b>M. Rodriguez</b>, and D. L. Renaud
-  url: plata-conced-20
+  url: plata-conecd-20
   image: conecd2020a.png
   journal: "2020 Collaborative Network for Computing and Engineering Diversity, Virtual On-line"
   year: 2020
