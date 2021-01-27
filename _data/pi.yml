@@ -2,7 +2,8 @@
   photo: mrdz.jpg
   info: Postdoctoral Scholar Research Associate
   email: mrdz@caltech.edu
-  github: https://github.com/mrodrig6
+  #github: https://github.com/mrodrig6
+  twitter: https://twitter.com/moquetzacan
   researchgate: https://www.researchgate.net/profile/Mauro_Rodriguez3
   scholar: http://scholar.google.com/citations?hl=en&user=eLCDhOUAAAAJ
   cv: /cv/cv_rodriguez.pdf
@@ -10,8 +11,8 @@
   education1: (2019- ) Postdoctoral Research Scholar, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
   education2: (2018) Ph.D. Mechanical Engineering, University of Michigan, Ann Arbor (with <a href="http://www-personal.umich.edu/~ejohnsen/" target="_blank">Eric Johnsen</a>)
   education3: (2012) M.S. Mechanical Engineering, Stanford University 
-  education4: (2010) B.S. University of Illinois at Urbana-Champaign (Mechanical Science and Engineering)
+  education4: (2010) B.S. Mechanical Science and Engineering, University of Illinois at Urbana-Champaign
   education1short: (2019- ) Postdoc, Caltech 
   education2short: (2018) Ph.D. ME, U-M
   education3short: (2012) M.S. ME, Stanford
-  education4short: (2010) B.S MechSE, UIUC
+  education4short: (2010) B.S. MechSE, UIUC

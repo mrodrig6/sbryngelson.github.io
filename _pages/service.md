@@ -32,19 +32,22 @@ iframe {
 </style>
 
 ## Service
+I contributed across the STEM pathways from mentoring K12 high school students 
+and increasing community STEM awareness to engineering dean discussions and 
+strategies to increase Hispanic STEM access,
+support and development. Full list of synergistic service activies 
+can found in my <a href="{{ site.url }}{{ site.baseurl }}/cv/cv_rodriguez.pdf" target="_blank">CV</a>.
 
 I educate and mentor ethical, world-leading engineers and scholars for the 
 Science, Technology, Engineering, and Mathematics (STEM) workforce. 
-I am resolved to make my life's work a bridge for historically 
-underrepresented students and communities towards 
-socio-economic uplift through STEM education. My approach 
-consists of a virtuous cycle of service activities to 
+My approach consists of a virtuous cycle of service activities to 
 produce world-leading scholars. The approach is as follows: 
 
   * Provide high-quality research opportunities and mentorship for underrepresented students
   * Implement an inclusive growth-mindset-oriented teaching approach
   * Proactively partake in STEM access outreach activities for an 
     inclusive department climate
+
 
 I demonstrated my service record through my leadership and innovation with the 
 <a href="https://shpe.org/" target="_blank">Society of Hispanic Professional Engineers</a> 
@@ -69,7 +72,7 @@ decade.
 
 </div>
   <div class="col-md-3 col-sm-12" style="background-color:transparent">
-   <p><img src="/images/servicepic/SHPE_logo.png" width="175px" /></p>
+   <p><img src="{{site.url}}{{site.baseurl}}/images/servicepic/SHPE_logo.png" width="175px" /></p>
    </div>
   </div>
 </div>
@@ -94,7 +97,7 @@ to measure the leadership self-efficacy of Hispanic students and <a href="{{site
 
 </div>
   <div class="col-md-3 col-sm-12" style="background-color:transparent">
-   <p><img src="/images/servicepic/NILA_logo.png" width="175px" /></p>
+   <p><img src="{{site.url}}{{site.baseurl}}/images/servicepic/NILA_logo.png" width="175px" /></p>
    </div>
   </div>
 </div>

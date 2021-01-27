@@ -74,7 +74,7 @@ interface-capturing Eulerian (flow-focused) methods.
 The intent of such computations is two-fold. First, 
 simplified-physics models are developed from these 
 simulations to predict the flow behavior in certain 
-environments and/or conditions. Second, these lower-order 
+environments and/or conditions. Second, these reduced-order 
 models are used to simulate experiments and/or operating conditions.
 
 ## Research thrusts
@@ -89,16 +89,16 @@ deformations of materials. These materials can vary in mechanical
 properties and stress response from biological (soft, low stress) 
 tissues to metals with high strength (hard, high stress). 
 I develop high-fidelity computational methods to simulate these 
-dynamics in a monolithic Eulerian framework.
+dynamics in an Eulerian framework.
 * I have developed an <a href="{{ site.url }}{{ site.baseurl }}/papers/rodriguez-JCP-19.pdf" target="_blank">Eulerian, high-order accurate interface-capturing model</a>
-that accounts for gas, liquids and solids
+that accounts for gas, liquids and viscoelastic solids
 * Applied the model to the Advected Upstream Method (AUSM) approach to study <a href="{{ site.url }}{{ site.baseurl }}/papers/rodriguez-shockwaves-19.pdf" target="_blank">shock-viscoelastic droplet interactions</a>
 * I applied this framework to study <a href="{{ site.url }}{{ site.baseurl }}/papers/rodriguez-thesis-18.pdf" target="_blank">cavitation bubble collapse near a compliant material</a>
 </div>
 
 <div class="col-md-3 col-sm-12" style="background-color:transparent;">
 <video width="200px" height="200px" autoplay loop>
- <source src="/images/videos/sic_layer.mp4" type="video/mp4">
+ <source src="{{site.url}}{{site.baseurl}}/images/videos/sic_layer.mp4" type="video/mp4">
 </video>
 </div>
 </div>
@@ -118,7 +118,7 @@ to its contents and the surrounding material forces. In this work:
 * Studying the non-linear wave energy losses due to laser-induced cavitation bubbles
 </div>
   <div class="col-md-3 col-sm-12" style="background-color:transparent">
-   <p><img src="/images/pubpic/pmb2019.png" width="175px" /></p>
+   <p><img src="{{site.url}}{{site.baseurl}}/images/pubpic/pmb2019.png" width="175px" /></p>
    </div>
   </div>
 </div>
@@ -138,7 +138,7 @@ my contributions to this area:
 
 <div class="col-md-3 col-sm-12" style="background-color:transparent;">
 <video width="200px" height="200px" autoplay loop>
- <source src="/images/videos/droplet_wall.mp4" type="video/mp4">
+ <source src="{{site.url}}{{site.baseurl}}/images/videos/droplet_wall.mp4" type="video/mp4">
 </video>
 </div>
 </div>

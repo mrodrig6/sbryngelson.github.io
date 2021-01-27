@@ -2,12 +2,12 @@
 title: Mauro Rodriguez Jr., PhD
 email: mrdz@caltech.edu
 description: Academic webpage of Mauro Rodriguez Jr., PhD
-baseurl: ""
-url: ""
+baseurl: "~mrdz"
+url: "http://www.its.caltech.edu/"
 
 
 # Google analytics ID: Remove or use your own!
-google_analytics: UA-167467135-1
+#google_analytics:
 
 # Footer info
 affiliation: >
